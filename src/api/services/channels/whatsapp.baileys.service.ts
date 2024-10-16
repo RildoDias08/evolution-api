@@ -897,7 +897,7 @@ export class BaileysStartupService extends ChannelStartupService {
         chats: Chat[];
         contacts: Contact[];
         messages: proto.IWebMessageInfo[];
-        isLatest: boolean;
+        isLatest: True;
       },
       database: Database,
     ) => {
