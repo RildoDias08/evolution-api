@@ -893,11 +893,12 @@ export class BaileysStartupService extends ChannelStartupService {
         messages,
         chats,
         contacts,
+        isLatest, // Adicionado como obrigatório
       }: {
         chats: Chat[];
         contacts: Contact[];
         messages: proto.IWebMessageInfo[];
-        isLatest: True;
+        isLatest: true; // Corrigido para usar 'true' como um valor literal
       },
       database: Database,
     ) => {
