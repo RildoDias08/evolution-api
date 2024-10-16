@@ -1,5 +1,5 @@
 # Estágio de construção
-FROM node:20.7.0-alpine AS builder
+FROM node:18-alpine AS builder
 
 LABEL version="1.8.0" description="Api to control whatsapp features through http requests."
 LABEL maintainer="Davidson Gomes" git="https://github.com/DavidsonGomes"
