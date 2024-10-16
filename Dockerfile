@@ -25,7 +25,7 @@ COPY . .
 RUN npm run build
 
 # Estágio final
-FROM node:20.7.0-alpine AS final
+FROM node:18-alpine AS final
 
 ENV TZ=America/Sao_Paulo
 ENV DOCKER_ENV=true
